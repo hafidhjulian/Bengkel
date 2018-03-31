@@ -1,0 +1,85 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+  background-color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: fixed;
+
+  .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.navbar-text {
+  display: inline-block;
+  padding-top: $nav-link-padding-y;
+  padding-bottom: $nav-link-padding-y;
+}
+.nav-link{
+	color: black;
+}
+.nav-item{
+  text-align: left;
+}
+.navbar{
+  float: left;
+  margin-left: 30px;
+}
+
+.nav .top{
+  display: flex;
+}
+.top .doc{
+  font-size: 35px;
+}
+.top{
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.textdoc{
+  margin-left: 10px;
+}
+.col-md-4{
+  min-height: 100%;
+  background-attachment: fixed;
+  background-color: #E7EAEB;
+}
+.col-md-8{
+  color: black;
+}
+#btnup{
+  border-radius: 50px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+
+#bengkel{
+  margin-top: 70px;
+}
+#angkutan{
+  margin-top: 70px;
+}
+
+#tabdata{
+    overflow-y: scroll; 
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+#footer{
+  background-color: black;
+  color: white;
+}
+
